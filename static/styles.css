@@ -7,6 +7,15 @@ body {
     color: #333;
 }
 
+#perfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -63,4 +72,52 @@ footer {
     color: #333;
     text-decoration: none;
     font-size: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
 }
