@@ -4,63 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sobre - Pedro Fernandes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="static/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="/">Início</a></li>
-          <li><a href="/sobre">Sobre</a></li>
-          <li><a href="/projetos">Projetos</a></li>
-          <li><a href="/contato">Contato</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-body-color">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <a class="nav-link active text-light" aria-current="page" href="/">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"href="/sobre">Sobre</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/contato">Contato</a>
+                </li>
+            </ul>   
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
-      <section class="about">
-        <h2>Sobre Mim</h2>
-        <h3>Pedro Henrique Fernandes, 21 anos, de Indaiatuba, SP.</h3>
-        <p>
-          🎓 Estudante de Ciência da Computação na Unimax.
-          <br />
-          🎓 Técnico em Desenvolvimento de Sistemas pela ETEC Martinho Di Ciero
-          (2021)
-        </p>
-        <p>
-          💼 Atualmente estagiário no setor de Jurimetria no Itaú Unibanco.
-          <br />
-          💼 Experiência na NCI Innova (2022) com Vue.js, MongoDB, Node.js e
-          TypeScript. Contribuí para projetos desafiadores, fortalecendo
-          habilidades técnicas e de gestão.
-          <br />
-          💼 Experiência com suporte, infraestrutura e redes de computadores
-          estagiando na Unimax.
-          <br />
-        </p>
-        <p>
-          🌍 Fluente em inglês (Certificado Cambridge English: First). Essa
-          habilidade facilita a comunicação em ambientes multiculturais e
-          expande as oportunidades profissionais.
-        </p>
-        <p>
-          💬 Sou conhecido por minha natureza comunicativa, o que me permite
-          colaborar efetivamente em equipes e interagir com diferentes
-          stakeholders. Sempre busco oportunidades para aprender e crescer,
-          tanto pessoal quanto profissionalmente, participando de cursos e
-          eventos relevantes.
-        </p>
-        <p>
-          🚀 Estou em constante busca por desafios na área de Tecnologia da
-          Informação, onde posso aplicar meu conhecimento e paixão pela inovação
-          para impulsionar o sucesso da equipe e da organização.
-        </p>
+      <section class="about py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h2 class="text-center">Sobre Mim</h2>
+              <h3 class="text-center">
+                Pedro Henrique Fernandes, 21 anos, de Indaiatuba, SP.
+              </h3>
+              <p>
+                🎓 Estudante de Ciência da Computação na Unimax.
+                <br />
+                🎓 Técnico em Desenvolvimento de Sistemas pela ETEC Martinho Di
+                Ciero (2021)
+              </p>
+              <p>
+                💼 Atualmente analista de dados no Itaú Unibanco 🧡.
+                <br />
+                💼 Experiência com suporte, infraestrutura e redes de
+                computadores estagiando na Unimax.
+                <br />
+              </p>
+              <p>
+                🌍 Fluente em inglês (Certificado Cambridge English: First). Essa
+                habilidade facilita a comunicação em ambientes multiculturais e
+                expande as oportunidades profissionais.
+              </p>
+              <p>
+                💬 Sou conhecido por minha natureza comunicativa, o que me
+                permite colaborar efetivamente em equipes e interagir com
+                diferentes stakeholders. Sempre busco oportunidades para
+                aprender e crescer, tanto pessoal quanto profissionalmente,
+                participando de cursos e eventos relevantes.
+              </p>
+              <p>
+                🚀 Estou em constante busca por desafios na área de Tecnologia da
+                Informação, onde posso aplicar meu conhecimento e paixão pela
+                inovação para impulsionar o sucesso da equipe e da organização.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
       <p>&copy; 2024 Pedro H. Fernandes</p>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
